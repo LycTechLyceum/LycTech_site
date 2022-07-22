@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    padding-bottom: 48px;
+    font-family: IBM Plex Sans,Roboto,Helvetica Neue, Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+div {
+    display: block;
+}
+
+.header {
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 40px;
+    border-bottom: 1px solid rgb(235, 237, 240);
+    height: 9.5rem;
+    padding: 0px 9vw;
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+.main {
+    flex-shrink: 0;
+    margin-top: 44px;
+    width: 93rem;
+    height: 37rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex-start;
+    flex: 0 auto;
+}
+
+.left-side {
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    margin-top: 81px;
+    margin-left: 98px;
+    margin-bottom: 66px;
+}
+
+.right-side {
+    margin-top: 80px;
+    height: 100%;
+    width: 40%;
+    flex-direction: column;
+    margin-right: 98px;
+}
+
+.circle-big {
+    border-radius: 300px;
+    background-color: #6372FF;
+    box-shadow: rgb(0 0 0 / 40%) 0px 20px 40px;
+    width: 252px;
+    height: 252px;
+    margin-left: 115px;
+}
+
+.circle-min {
+    border-radius: 200px;
+    background-color: #6372FF;
+    box-shadow: rgb(0 0 0 / 40%) 0px 20px 40px;
+    width: 127px;
+    height: 127px;
+    margin-left: 285px;
+    margin-top: 50px;
+}
+
+.under-main {
+    height: 6px;
+    background-color: rgb(36 36 36);
+    width: 80%;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text {
+    font-size: 44px;
+    color: #363636;
+    width: 735px;
+    font-weight: bold;
+    line-height: 64px;
+}
+
+.not-main-text {
+    font-size: 26px;
+    color: #363636;
+    width: 801px;
+    margin-top: 40px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+}
+
+button {
+    background: #6372FF;
+    height: 107px;
+    width: 367px;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: medium;
+    border-style: none;
+    margin-top: 105px;
+}
+
+.LS {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    transition: color 0.1s ease 0s;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    color: #363636;
+}
+
+.logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0 16px;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(69, 79, 91);
+    text-decoration: none;
+}
+
+.second-header {
+    z-index: 10;
+    top: 0px;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    height: 176px;
+    padding: 0px 9vw;
+    user-select: none;
+}
+
+.main-login {
+    width: 643px;
+    height: 636px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 67px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 20px 40px;
+    padding-top: 41px;
+}
+
+.login-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.login-form {
+    transition: filter 0.1s ease 0s;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LG {
+    margin-top: 44px;
+    width: 488px;
+    height: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    padding-left: 48px;
+}
+
+.login-button {
+    background: #6372FF;
+    height: 107px;
+    width: 367px;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: medium;
+    border-style: none;
+    margin-top: 105px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-register {
+    width: 1333px;
+    height: 1014px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 67px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 20px 40px;
+    padding-top: 41px;
+}
+
+.practicum {
+    flex-shrink: 0;
+    margin-top: 44px;
+    width: 70rem;
+    height: 30rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    text-align: center;
+    color: #363636;
+}
+
+.center-text {
+    font-size: 44px;
+    color: #363636;
+    font-weight: bold;
+    line-height: 64px;
+}

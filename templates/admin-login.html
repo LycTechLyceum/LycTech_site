@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LycTech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="root">
+      <div class="header">
+            <a class="logo" href="/"><img src="static/images/logo.jpg"></a>
+        </div>
+      <div class="main-login">
+        <p class="login-text">Вход для администрации</p>
+        <form method="post" class="login-form">
+        <input class="LG" placeholder="Ваш административный токен" name="token" id="token" required>
+        <input class="login-button" type="submit" value="Вход">
+      </form>
+      </div>
+    </div>
+</body>
+</html>
